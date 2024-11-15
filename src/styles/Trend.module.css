@@ -1,0 +1,40 @@
+.wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    width: 100%;
+    text-align: start;
+}
+
+.slider{
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width: 1286px){
+    .container, .title{
+        width: 95%;
+    }
+}
+
+@media(max-width: 1150px){
+    .container, .title{
+        width: 90%;
+    }
+}
+
+@media(max-width: 600px){
+    .container, .title{
+        width: 85%;
+    }
+}

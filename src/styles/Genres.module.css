@@ -1,0 +1,31 @@
+.genresDiv{
+    display: flex;
+    overflow-x: auto;
+    padding-bottom: 10px;
+    margin-top: 50px;
+}
+
+.genre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 5px 0px 5px;
+    padding: 0 10px;
+    text-align: center;
+    background-color:  rgb(49, 49, 49);
+    border-radius: 5px;
+}
+
+
+.genresDiv::-webkit-scrollbar {
+    height: 10px;
+}
+
+.genresDiv::-webkit-scrollbar-track {
+    background: transparent
+}
+
+.genresDiv::-webkit-scrollbar-thumb {
+    background: rgb(156, 156, 156);
+    border-radius: 5px;
+}

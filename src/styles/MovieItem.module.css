@@ -1,0 +1,30 @@
+.post {
+    margin: 0 10px 0 10px;
+    height: 400px;
+    width: 200px;
+}
+
+.image {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    justify-content: space-between;
+}
+
+@media(max-width: 850px){
+    .image{
+        width: 150px;
+    }
+
+    .title {
+        margin-top: 5px;
+        width: 90%;
+        height: 50px;
+        font-size: 14px;
+    }
+}

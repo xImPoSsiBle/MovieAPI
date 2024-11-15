@@ -1,0 +1,48 @@
+.container {
+    max-width: 1200px;
+    margin: 90px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.movieDetailImage {
+    width: 250px;
+    height: 375px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.overview {
+    margin-top: 55px;
+    width: 850px;
+}
+
+.movieInfo {
+    margin-left: 40px;
+}
+
+.movieInfo p {
+    font-size: 16px;
+}
+
+.movieTrailer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.addBtns button{
+    width: 110px;
+    height: 40px;
+    margin-right: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: #002efc;
+    font-size: medium;
+    font: bold;
+    cursor: pointer;
+}

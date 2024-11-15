@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.movieWraper{
+    width: 90%;
+    height: 200px;
+    margin: 10px 0;
+    display: flex;
+    border: 1px solid rgb(227, 227, 227);
+    border-radius: 5px;
+}
+
+.movieImgDiv{
+    width: 150px;
+    margin-right: 10px;
+}
+
+.movieImg{
+    width: 150px;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.overview{
+    width: 98%;
+    max-height: 90px;
+    overflow: hidden;
+    -webkit-line-clamp: 4;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+.title{
+    margin-bottom: 15px;
+}
+
+.title h2{
+    margin: 10px 0 0 0;
+}
+
+.movieScroll{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    overflow-x: auto;
+    margin-top: 10px;
+    height: 370px;
+}
+
+.container::-webkit-scrollbar {
+    height: 10px;
+}
+
+.container::-webkit-scrollbar-track {
+    background: transparent
+}
+
+.container::-webkit-scrollbar-thumb {
+    background: rgb(156, 156, 156);
+    border-radius: 5px;
+}
+
+.post {
+    margin: 0 10px 0 10px;
+    height: 330px;
+}
+
+.image {
+    width: 150px;
+    border-radius: 10px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    justify-content: space-between;
+}

@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+}
+
+.sideBar {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    width: 100px;
+    height: 30px;
+    margin: 10px 0;
+    background-color: rgb(49, 49, 49);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.active{
+    background-color: #002efc;
+}
+
+.content{
+    width: 100%;
+}
